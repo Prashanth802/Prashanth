@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.bussinessscripts.SampleTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.359 s - in com.bussinessscripts.SampleTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.739 s <<< FAILURE! - in com.bussinessscripts.SampleTest
+testOne(com.bussinessscripts.SampleTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	Syntax error on tokens, delete these tokens
+	Syntax error on tokens, delete these tokens
+
+	at com.bussinessscripts.SampleTest.testOne(SampleTest.java:20)
+
