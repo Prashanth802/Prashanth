@@ -11,6 +11,7 @@ public class SampleTestTwo {
 public static void testTwo() throws InterruptedException
 {
 	//System.setProperty("", "");
+	System.out.println("person 2 changes");
 		WebDriverManager.chromedriver().setup();//you wont get any version compatability issuse 
 		WebDriver driver=new ChromeDriver();
 		System.out.println("browser launched suceesfully");
