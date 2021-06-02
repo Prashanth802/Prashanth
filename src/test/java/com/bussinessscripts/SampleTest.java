@@ -17,7 +17,7 @@ public static void testOne() throws InterruptedException {
 	driver.manage().window().maximize();
 	driver.get("https://www.gmail.com");
 	System.out.println("navigated to :"+driver.getCurrentUrl());
-	System.out.println("person2 changes");
+	System.out.println("person 1 changes");
 	driver.close();
 }
 }
