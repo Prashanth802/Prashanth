@@ -15,7 +15,7 @@ public static void testOne() throws InterruptedException {
 	System.out.println("browser launched suceesfully");
 	Thread.sleep(3000);
 	driver.manage().window().maximize();
-	driver.get("https://www.rameshsoft.com");
+	driver.get("https://www.gmail.com");
 	System.out.println("navigated to :"+driver.getCurrentUrl());
 	driver.close();
 }
