@@ -10,6 +10,7 @@ public class SampleTest {
 	@Test
 public static void testOne() throws InterruptedException {
 	 //System.setProperty("", "");
+	 System.out.println("person 2 changes");
 	WebDriverManager.chromedriver().setup();//you wont get any version compatability issuse 
 	WebDriver driver=new ChromeDriver();
 	System.out.println("browser launched suceesfully");
@@ -17,10 +18,6 @@ public static void testOne() throws InterruptedException {
 	driver.manage().window().maximize();
 	driver.get("https://www.gmail.com");
 	System.out.println("navigated to :"+driver.getCurrentUrl());
-<<<<<<< HEAD
-	System.out.println("person 1 changes");
-=======
->>>>>>> c4ef03803648dbcea94df0785157fa89cdbe1bea
 	driver.close();
 }
 }
