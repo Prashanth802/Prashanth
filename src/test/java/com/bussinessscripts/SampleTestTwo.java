@@ -18,7 +18,10 @@ public static void testTwo() throws InterruptedException
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com");
 		System.out.println("navigated to :"+driver.getCurrentUrl());
+<<<<<<< HEAD
 		System.out.println("person 1 changes");
+=======
+>>>>>>> 7f1c70101bae4016b6b2ece22ba3017761556cf2
 		driver.close();
 }
 }
